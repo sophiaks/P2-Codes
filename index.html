@@ -3,6 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>Document</title>
+    <script src="assets/js/codes.js"></script>
+	<script src="assets/js/index.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,6 +14,10 @@
     <main class="main">
         <section class="section1">
             <h1 class="titulo">Bem-Vindo!</h1>
+            <div class="triagens">
+            <div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            </div>
             <div class="triagem-grafico">
                 <h2 class="sub-titulo">Seleção Front-End</h2>
                 <br>
@@ -34,6 +40,10 @@
                         <div class="barra4"></div>
                 </div>
             </div>
+            <div>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+            </div>
         </section>
         <section class="section3">
         <div class="onda">
@@ -41,24 +51,32 @@
     </section>
         <section class="section2">
             <div class="horizontal1">
+                
+                <a href="importar.html">
                 <div class="importar">
                         <p class="importar_texto">Importar Currículos</p>
                         <img class="download" src="assets/img/importar.png" alt="importar">
                 </div>
-                <div class="triagem">
+            </a>
+               <a href="triagem.html">
+            <div class="triagem">
                     <p class="curriculo_texto">Triagem</p>
                     <img class="curriculo" src="assets/img/curriculo.png" alt="triagem">
                 </div>
+            </a>
 
-
+                <a href="testes.html">
                 <div class="testes">
                     <p class="testes_texto">Testes</p>
                     <img class="assert" src="assets/img/teste.png" alt="teste">
             </div>
-                <div class="aprender">
+        </a>
+                <a href="aprender.html">
+            <div class="aprender">
                         <p class="aprender_texto">Aprender</p>
                         <img class="livro" src="assets/img/book.png" alt="aprender">
                 </div>
+            </a>
             </div>
         </section>
     </main>

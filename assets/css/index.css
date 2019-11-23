@@ -9,6 +9,21 @@
     height:22rem;
     flex-direction: column;
 }
+
+.triagens{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.prev, .next{
+
+    color:white;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin:1.5rem;
+}
+
 .titulo{
     font-size: 2rem;
     font-weight: bold;
@@ -161,17 +176,21 @@
 
 .curriculo_texto{
     margin-top:auto;
+    color:black;
 }
 .aprender_texto{
     margin-top:auto;
+    color:black;
 }
 
 .importar_texto{
     margin-top:auto;
+    color:black;
 }
 
 .testes_texto{
     margin-top:auto;
+    color:black;
 }
 .section3{
     height:3rem;
@@ -202,3 +221,5 @@
 body, html{
 
 }
+
+A {text-decoration: none;}
