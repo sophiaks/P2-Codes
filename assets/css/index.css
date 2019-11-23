@@ -1,19 +1,29 @@
 .main{
-
-    background:linear-gradient(90deg, rgb(255, 0, 170), purple); 
+    font-family: "Montserrat", sans-serif;
+    background:linear-gradient(90deg, rgb(255, 0, 170), purple);
 }
 .section1{
 	display:flex;
 	justify-content: center;
     align-content: center;
     height:22rem;
+    flex-direction: column;
 }
-.triagem-grafico{ 
+.titulo{
+    font-size: 2rem;
+    font-weight: bold;
+    color:white;
+    margin:auto;
+}
+.sub-titulo{
+    font-weight: bold;
+}
+.triagem-grafico{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 0.5rem;
     width: 15rem;
     height:15rem;
-    margin:5rem;
+    margin:auto;
     display:flex;
     justify-content: center;
     flex-direction: column;
@@ -135,12 +145,12 @@
 }
 .livro{
     width:5rem;
-    margin:auto; 
+    margin:auto;
 }
 
 .download{
     width:5rem;
-    margin:auto;  
+    margin:auto;
 }
 
 .assert{
@@ -165,14 +175,15 @@
 }
 .section3{
     height:3rem;
+    overflow: hidden;
 }
 .onda{
-    
-    background-image: url("../img/waves.png"); 
+
+    background-image: url("../img/waves.png");
     background-size: 50% 30px;
     animation:waves 8s linear infinite;
-    position:absolute;
-    bottom:14.5rem;
+    position:relative;
+    bottom:0rem;
     left:0;
     right:0;
     height:100%;
@@ -186,4 +197,8 @@
     0%{transform:translateX(0%) translateZ(0) scaleY(1);}
     0%{transform:translateX(-25%) translateZ(0) scaleY(.5);}
     0%{transform:translateX(-50%) translateZ(0) scaleY(1);}
+}
+
+body, html{
+
 }
