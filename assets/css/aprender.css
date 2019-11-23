@@ -124,6 +124,7 @@ A {text-decoration: none;
     color: purple;
 }
 
+
 .voltar{
     color:rgb(163, 0, 163);
     font-size: 2rem;
@@ -138,7 +139,6 @@ A {text-decoration: none;
     border-radius: 5rem;
     display:flex;
     justify-content: center;
-    align-items: center;
     margin-top:0.5rem;
     margin-left:0.5rem;
 }
