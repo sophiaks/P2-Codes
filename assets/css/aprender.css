@@ -65,7 +65,8 @@
     color:white;
     font-size: 2rem;
     font-weight: bold;
-    margin:1.5rem;
+    margin-bottom:1.5rem;
+    margin-top:0;
 }
 
 .software{
@@ -121,4 +122,23 @@ A {text-decoration: none;
 .headline_text{
     margin:0.5rem;
     color: purple;
+}
+
+.voltar{
+    color:rgb(163, 0, 163);
+    font-size: 2rem;
+    font-weight: bold;
+    margin:auto;
+}
+
+.circulo{
+    background-color: white;
+    height:3rem;
+    width:3rem;
+    border-radius: 5rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:0.5rem;
+    margin-left:0.5rem;
 }
