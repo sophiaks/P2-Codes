@@ -4,16 +4,16 @@
 }
 
 
-
 .header {
     margin-bottom: 6rem;
-    margin-top:1.5rem;
+    margin-top:-2rem;
     padding: 0;
     position: relative;
     text-align: center;
     bottom: 3rem;
     font-size: 6rem;
     color: white;
+    font-weight: bold;
 }
 
 
@@ -25,20 +25,21 @@
 
 .voltar{
     color:rgb(163, 0, 163);
-    font-size: 2rem;
+    font-size: 3.7rem;
     font-weight: bold;
-    margin:auto;
+    margin: auto;
 }
 
 .circulo{
     background-color: white;
-    height:3rem;
-    width:3rem;
+    height:5rem;
+    width:5rem;
     border-radius: 5rem;
     display:flex;
     justify-content: center;
-    margin-top:0.5rem;
-    margin-left:0.5rem;
+    margin-top:4rem;
+    margin-left:3rem;
+    
 }
 
 
