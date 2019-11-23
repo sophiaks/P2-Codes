@@ -30,7 +30,7 @@
     background-color:white;
     border-radius: 1rem;
     height:3rem;
-    width:90%;
+    width:30rem;
     display:flex;
     justify-content:center;
     align-items: center;
@@ -40,18 +40,22 @@
 
 .el1{
     background-color:#ff65ea;
+    width:90%;
 }
 
 .el2{
     background-color:rgb(0, 162, 255);
+    width:90%;
 }
 
 .el3{
     background-color:rgb(25, 255, 198);
+    width:90%;
 }
 
 .el4{
     background-color:rgb(255, 177, 31);
+    width:90%;
 }
 .el_palavra{
     color:white;
@@ -99,6 +103,7 @@
 
 
 A {text-decoration: none;
+    width:100%
 
 }
 
