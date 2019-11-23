@@ -6,23 +6,37 @@
 
 
 .header {
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
+    margin-top:1.5rem;
     padding: 0;
     position: relative;
     text-align: center;
     bottom: 3rem;
-    font-size: 5rem;
+    font-size: 6rem;
+    color: white;
 }
 
-.icon{
-    margin-top:2.5rem;
-    margin-left:2rem;
-    width: 5rem;
-    height: 5rem;
-}
 
 .item{
-    margin-left:3rem;
+    margin-left:4rem;
     margin-bottom: 6rem;
-    font-size: 3.7rem;
+    font-size: 4.1rem;
+}
+
+.voltar{
+    color:rgb(163, 0, 163);
+    font-size: 2rem;
+    font-weight: bold;
+    margin:auto;
+}
+
+.circulo{
+    background-color: white;
+    height:3rem;
+    width:3rem;
+    border-radius: 5rem;
+    display:flex;
+    justify-content: center;
+    margin-top:0.5rem;
+    margin-left:0.5rem;
 }
