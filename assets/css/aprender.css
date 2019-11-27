@@ -102,12 +102,6 @@
     margin:1.5rem;
 }
 
-
-A {text-decoration: none;
-    width:100%
-
-}
-
 .headline{
     height:3rem;
     width:10rem;
@@ -141,4 +135,10 @@ A {text-decoration: none;
     justify-content: center;
     margin-top:0.5rem;
     margin-left:0.5rem;
+}
+
+
+A {text-decoration: none;
+    width:100%
+
 }
