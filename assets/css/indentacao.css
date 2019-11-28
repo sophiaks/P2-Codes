@@ -1,0 +1,85 @@
+.main, body{
+    font-family: "Montserrat", sans-serif;
+    background:linear-gradient(90deg, rgb(255, 0, 170), purple);
+}
+
+.voltar{
+    color:rgb(163, 0, 163);
+    font-size: 2rem;
+    font-weight: bold;
+    margin:auto;
+}
+
+.circulo{
+    background-color: white;
+    height:3rem;
+    width:3rem;
+    border-radius: 5rem;
+    display:flex;
+    justify-content: center;
+    margin-top:0.5rem;
+    margin-left:0.5rem;
+}
+
+
+A {text-decoration: none;
+    width:100%
+
+}
+
+.titulo{
+    color:white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom:1.5rem;
+    margin-top:0;
+    
+}
+
+.sub_titulo{
+    
+        color:white;
+        font-size: 1rem;
+        font-weight: bold;
+        margin-bottom:1.5rem;
+        margin-top:0;
+        
+
+}
+
+.section2{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+
+.section3, .section4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   text-align: center; 
+    margin:2rem;
+    flex-direction: column;
+}
+.section5{
+    display:flex;
+    justify-content: center;
+}
+.caixa_de_texto{
+    width:80%;
+    background-color: white;
+    border-radius: 1.5rem;
+    margin-bottom:1.5rem;;
+}
+.aviso_indentacao{
+    margin:2rem;
+}
+
+.aviso_site{
+    color:red;
+    margin:2rem;
+    margin-top:0;
+}
+
