@@ -18,31 +18,52 @@ var firebaseConfig = {
 
 
 firebase.initializeApp(firebaseConfig);
+
 var dbRef = firebase.database();
-var contactsRef2 = dbRef.ref('/usuario/frontend/candidatos/Bilbia99');
-contactsRef2.set({
+var contactsRef = dbRef.ref('/usuario');
+function numero(){
+    contactsRef.once("value", function(snap) {
+    let i=0
+    for(let selecao of Object.values(snap.val()["frontend"])){
+            for(let nome of Object.values(selecao)){
+                i+=1 
+            }     
+        }
+    var contactsRef2 = dbRef.ref('/usuario/frontend/candidatos/Bilbia'+i.toString());
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "assets/img/curriculo.jpg");
+    x.setAttribute("width", "30rem");
+    x.setAttribute("margin", "10rem");
+  document.getElementsByClassName("section5")[0].appendChild(x);
+    contactsRef2.set({
   
       teste:{
           CSS:{
               codigo:"hey",
-              passou:true,
-              fez:true
+              passou:false,
+              fez:false
           },
           HTML:{
-              codigo:"hey",
-              passou:true,
-              fez:true
+            codigo:"hey",
+            passou:false,
+            fez:false
           },
           JS:{
-              codigo:"hey",
-              passou:true,
-              fez:true
+            codigo:"hey",
+            passou:false,
+            fez:false
           }
       },
       triagem:{
           curriculo:"quasssseeeee",
-          passou:true
+          passou:false
       
   }
   })
+})
+
+    
+
+
+}
 

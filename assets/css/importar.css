@@ -127,7 +127,7 @@ form button:active {
 
 .section4 {
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   flex-wrap: wrap;
   flex-direction: row;
   height: 10rem;
@@ -161,4 +161,11 @@ form button:active {
   text-align: center;
   font-weight: bold;
   color: white;
+}
+
+.section5{
+  width:100%;
+  display:flex;
+  justify-content: flex-start;
+  justify-content:space-evenly;
 }
