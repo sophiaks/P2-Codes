@@ -86,8 +86,8 @@ A {text-decoration: none;
 }
 
 #redondo2{
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
 
 .hidden {
