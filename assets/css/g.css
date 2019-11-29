@@ -1,0 +1,78 @@
+.body {
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(90deg, rgb(255, 0, 170), purple);
+  grid:
+    "topo" 60 px
+    "carrossel" 100px
+    "squares" 50 px
+    / 100px 1fr 50px;
+}
+
+.carrossel {
+  display: flexbox;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-around;
+}
+
+.topo {
+  display: grid;
+  align-content: center;
+}
+
+.voltar {
+  margin-left: 1%;
+  margin-top: 1%;
+  size: 2rem;
+}
+
+.pesq {
+  display: grid;
+}
+
+.squares {
+  display: flexbox;
+}
+
+.square {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(255, 0, 0);
+}
+
+.square2 {
+  height: 50px;
+  width: 50px;
+  background-color: #1500ff;
+  display: grid;
+  grid-column-end: 3;
+}
+
+.img_p {
+  align-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.prev {
+  display: flex;
+  align-content: space-around;
+}
+
+.next {
+  display: flex;
+  align-content: space-around;
+}
+
+.text {
+  display: absolute;
+  margin-top: 30;
+  align-content: center;
+}
+
+.button {
+  display: grid;
+  grid-row-end: 4;
+  align-content: center;
+  align-items: center;
+}
