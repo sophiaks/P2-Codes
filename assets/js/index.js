@@ -15,28 +15,87 @@ var contactsRef = dbRef.ref('/usuario');
 
     let i=0
     let j=0
-    contactsRef.once("value", function(snap) {
-        
-        
-        for(let selecao of Object.values(snap.val()["frontend"])){
-                for(let nome of Object.values(selecao)){
-                    i+=1
-                    if(nome["triagem"]["passou"]==true){
-                        j+=1
+contactsRef.once("value", function(snap) {
+    for(let selecao of Object.values(snap.val()["frontend"])){
+            for(let nome of Object.values(selecao)){
+                i+=1
+                if(nome["triagem"]["passou"]==true){
+                    j+=1
+                }
+            }     
+        }
+        var bar1=document.getElementsByClassName("barra1")[0]
+        bar1.style.width = j/i*10+'rem';
+        var p1=document.getElementsByClassName("porcentagem1")[0]
+        p1.innerHTML=+parseInt(j/i*100)+"%"
+})
+
+    let k=0
+    let u=0
+contactsRef.once("value", function(snap) {
+    for(let selecao of Object.values(snap.val()["frontend"])){
+            for(let nome of Object.values(selecao)){
+            
+                if(nome["triagem"]["passou"]==true){
+                    k+=1
+                    if(nome["teste"]["HTML"]["fez"]==true && nome["teste"]["CSS"]["fez"]==true && nome["teste"]["JS"]["fez"]==true){
+                        u+=1
                     }
                 }
-                
-            }
-            var bar1=document.getElementsByClassName("barra1")[0]
-            bar1.style.width = j/i*10+'rem';
-            
-        
-            var p1=document.getElementsByClassName("porcentagem1")[0]
-                p1.innerHTML=parseInt(j/i*100)+"%"
-       
+            }     
         }
+        var bar1=document.getElementsByClassName("barra2")[0]
+        bar1.style.width = u/k*10+'rem';
+        var p1=document.getElementsByClassName("porcentagem2")[0]
+        p1.innerHTML=parseInt(u/k*100)+"%"
+})
+
+let p=0
+let q=0
+contactsRef.once("value", function(snap) {
+for(let selecao of Object.values(snap.val()["frontend"])){
+        for(let nome of Object.values(selecao)){
         
-    )
+            if(nome["triagem"]["passou"]==true){
+                p+=1
+                if(nome["teste"]["HTML"]["passou"]==true && nome["teste"]["CSS"]["passou"]==true && nome["teste"]["JS"]["passou"]==true){
+                    q+=1
+                }
+            }
+        }     
+    }
+    var bar1=document.getElementsByClassName("barra3")[0]
+    bar1.style.width = q/p*10+'rem';
+    var p1=document.getElementsByClassName("porcentagem3")[0]
+    p1.innerHTML=parseInt(q/p*100)+"%"
+})
+
+var contactsRef2 = dbRef.ref('/usuario/frontend/candidatos/Bilbia10');
+contactsRef2.set({
+    
+        teste:{
+            CSS:{
+                codigo:"hey",
+                passou:true,
+                fez:true
+            },
+            HTML:{
+                codigo:"hey",
+                passou:true,
+                fez:true
+            },
+            JS:{
+                codigo:"hey",
+                passou:true,
+                fez:true
+            }
+        },
+        triagem:{
+            curriculo:"quasssseeeee",
+            passou:true
+        
+    }
+    })
 
 
 
