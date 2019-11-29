@@ -1,10 +1,9 @@
-.main{
-    font-family: "Montserrat", sans-serif;
-    background:linear-gradient(90deg, rgb(255, 0, 170), purple);
-    display:flex;
-    flex-direction: column;
+.main {
+  font-family: "Lora", serif;
+  background: linear-gradient(90deg, rgb(255, 0, 170), purple);
+  display: flex;
+  flex-direction: column;
 }
-
 
 .header {
     font-size: 2rem;
@@ -67,19 +66,30 @@
     margin-left:2rem;
 }
 
-
-A {text-decoration: none;
-    width:100%;
+.circulo {
+  background-color: white;
+  height: 7rem;
+  width: 7rem;
+  border-radius: 5rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-left: 2rem;
 }
 
-#redondo{
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
+a {
+  text-decoration: none;
+  width: 100%;
 }
 
-#redondo2{
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
+#redondo {
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+#redondo2 {
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
 }
 
 .hidden {
@@ -96,13 +106,12 @@ A {text-decoration: none;
 
 }
 
-.topics{
-    margin-bottom: 3rem;
-    color:white;
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1), 3px 3px 3px rgba(0, 0, 0, 0.5);
+.topics {
+  margin-bottom: 3rem;
+  color: white;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1), 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
-
-
-input:checked + label + .hidden {display: inline;}
-
+input:checked + label + .hidden {
+  display: inline;
+}
