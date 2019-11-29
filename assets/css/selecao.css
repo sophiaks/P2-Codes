@@ -90,6 +90,28 @@
 } */
 
 .voltar{
+<<<<<<< HEAD
+  color:rgb(163, 0, 163);
+  font-size: 2rem;
+  font-weight: bold;
+  margin:auto;
+}
+
+.circulo{
+  background-color: white;
+  height:3rem;
+  width:3rem;
+  border-radius: 5rem;
+  display:flex;
+  justify-content: center;
+  margin-top:2rem;
+  margin-left:2rem;
+}
+
+
+A {text-decoration: none;
+  width:100%;
+=======
     color:rgb(163, 0, 163);
     font-size: 2rem;
     font-weight: bold;
@@ -119,4 +141,5 @@ A {text-decoration: none;
   align-content: center;
   height:20rem;
   padding: 1rem;
+>>>>>>> a8dc22725771907855a0517509d76a7e00816f28
 }
