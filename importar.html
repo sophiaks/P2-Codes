@@ -4,7 +4,6 @@
   <title>Import</title>
   <meta charset="utf-8">
   <script src="assets/js/codes.js"></script>
-  <script src="assets/js/importar.js"></script>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/importar.css">
   <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
@@ -71,7 +70,7 @@
         <img class="cimg" src="assets/img/file.png" alt="curriculo">
       </div>
       <a href="index.html" class="cont">
-        <div class="ok">
+        <div class="ok" onclick="add(9)">
           <p class="okt">OK</p>
         </div>
       </a>
@@ -86,5 +85,13 @@
 
 
   </main>
+
 </body>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+<script src="assets/js/importar.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
 </html>

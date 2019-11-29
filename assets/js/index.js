@@ -70,32 +70,6 @@ for(let selecao of Object.values(snap.val()["frontend"])){
     p1.innerHTML=parseInt(q/p*100)+"%"
 })
 
-var contactsRef2 = dbRef.ref('/usuario/frontend/candidatos/Bilbia10');
-contactsRef2.set({
-    
-        teste:{
-            CSS:{
-                codigo:"hey",
-                passou:true,
-                fez:true
-            },
-            HTML:{
-                codigo:"hey",
-                passou:true,
-                fez:true
-            },
-            JS:{
-                codigo:"hey",
-                passou:true,
-                fez:true
-            }
-        },
-        triagem:{
-            curriculo:"quasssseeeee",
-            passou:true
-        
-    }
-    })
 
 
 
