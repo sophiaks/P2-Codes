@@ -16,10 +16,10 @@ var firebaseConfig = {
 };
 // Initialize Firebase
 
-function add(i){
+
 firebase.initializeApp(firebaseConfig);
 var dbRef = firebase.database();
-var contactsRef2 = dbRef.ref('/usuario/frontend/candidatos/Bilbia'+i.toString());
+var contactsRef2 = dbRef.ref('/usuario/frontend/candidatos/Bilbia20');
 contactsRef2.set({
   
       teste:{
@@ -45,22 +45,4 @@ contactsRef2.set({
       
   }
   })
-}
-function numero(){
-  firebase.initializeApp(firebaseConfig);
-  var dbRef = firebase.database();
-  var contactsRef = dbRef.ref('/usuario');
 
-let i=0
-contactsRef.once("value", function(snap) {
-  
-    for(let selecao of Object.values(snap.val()["frontend"])){
-            this.i+=1
-            } 
-            return this.i       
-        }
-   
-      )
-      return i
-}
-console.log(numero())
