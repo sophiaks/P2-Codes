@@ -19,7 +19,7 @@ var firebaseConfig = {
 
 firebase.initializeApp(firebaseConfig);
 var dbRef = firebase.database();
-var contactsRef2 = dbRef.ref('/usuario/frontend/candidatos/Bilbia24');
+var contactsRef2 = dbRef.ref('/usuario/frontend/candidatos/Bilbia88');
 contactsRef2.set({
   
       teste:{
