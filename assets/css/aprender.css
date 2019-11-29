@@ -1,144 +1,144 @@
-.main, body{
-    font-family: "Montserrat", sans-serif;
-    background:linear-gradient(90deg, rgb(255, 0, 170), purple);
+.main,
+body {
+  font-family: "Lora", serif;
+  background: linear-gradient(90deg, rgb(255, 0, 170), purple);
 }
 
-.section2{
-    display:flex;
-    justify-content: center;
+.section2 {
+  display: flex;
+  justify-content: center;
 }
 
-.section3{
-    display:flex;
-    justify-content: center;
-    align-items: center;
+.section3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.caixa{
-    background-color: white;
-    border-radius: 1rem;
-    width:85%;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-bottom:2rem;
-    text-align: center;
+.caixa {
+  background-color: white;
+  border-radius: 1rem;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 2rem;
+  text-align: center;
 }
 
-.elemento{
-    background-color:white;
-    border-radius: 1rem;
-    height:3rem;
-    width:30rem;
-    display:flex;
-    justify-content:center;
-    align-items: center;
-    margin:auto;
-    margin:1rem;
+.elemento {
+  background-color: white;
+  border-radius: 1rem;
+  height: 3rem;
+  width: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin: 1rem;
 }
 
-.el1{
-    background-color:#ff65ea;
-    width:90%;
+.el1 {
+  background-color: #ff65ea;
+  width: 90%;
 }
 
-.el2{
-    background-color:rgb(0, 162, 255);
-    width:90%;
+.el2 {
+  background-color: rgb(0, 162, 255);
+  width: 90%;
 }
 
-.el3{
-    background-color:rgb(25, 255, 198);
-    width:90%;
+.el3 {
+  background-color: rgb(25, 255, 198);
+  width: 90%;
 }
 
-.el4{
-    background-color:rgb(255, 177, 31);
-    width:90%;
+.el4 {
+  background-color: rgb(255, 177, 31);
+  width: 90%;
 }
-.el_palavra{
-    color:white;
-    margin:2rem;
+.el_palavra {
+  color: white;
+  margin: 2rem;
 }
-.titulo{
-    color:white;
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom:1.5rem;
-    margin-top:0;
-}
-
-.software{
-    width:10rem;
-    border-top-left-radius:1.5rem;
-    border-top-right-radius:1.5rem;
+.titulo {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
-.novidades{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-.frase_novidade{
-    color:white;
-    font-size: 1.7rem;
-    font-weight: 600;
-    margin:1.5rem;
-}
-.section4{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.software {
+  width: 10rem;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
 }
 
-.prev, .next{
-
-    color:white;
-    font-size: 1.7rem;
-    font-weight: 600;
-    margin:1.5rem;
+.novidades {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frase_novidade {
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin: 1.5rem;
+}
+.section4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.headline{
-    height:3rem;
-    width:10rem;
-    background-color: white;
-    margin-bottom: 2rem;
-    border-bottom-left-radius:1.5rem;
-    border-bottom-right-radius:1.5rem;
-    display: flex;
-    text-align: center;
+.prev,
+.next {
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin: 1.5rem;
 }
 
-.headline_text{
-    margin:0.5rem;
-    color: purple;
+.headline {
+  height: 3rem;
+  width: 10rem;
+  background-color: white;
+  margin-bottom: 2rem;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  display: flex;
+  text-align: center;
 }
 
-
-.voltar{
-    color:rgb(163, 0, 163);
-    font-size: 2rem;
-    font-weight: bold;
-    margin:auto;
+.headline_text {
+  margin: 0.5rem;
+  color: purple;
 }
 
-.circulo{
-    background-color: white;
-    height:3rem;
-    width:3rem;
-    border-radius: 5rem;
-    display:flex;
-    justify-content: center;
-    margin-top:0.5rem;
-    margin-left:0.5rem;
+.voltar {
+  color: rgb(163, 0, 163);
+  font-size: 2rem;
+  font-weight: bold;
+  margin: auto;
 }
 
+.circulo {
+  background-color: white;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 5rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
 
-A {text-decoration: none;
-    width:100%
-
+a {
+  text-decoration: none;
+  width: 100%;
 }
