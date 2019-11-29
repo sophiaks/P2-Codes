@@ -19,7 +19,18 @@
   align-items: center;
   margin: 4rem;
 }
-
+.section2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+.input {
+  width: 80%;
+  height: 2.5rem;
+  background-color: white;
+  border-radius: 1.5rem;
+}
 .voltar {
   color: rgb(163, 0, 163);
   font-size: 3rem;
@@ -56,14 +67,14 @@ a {
   display: flex;
   height: 50px;
   width: 50px;
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(255, 74, 29);
   border-color: white;
 }
 
 .square2 {
   height: 50px;
   width: 50px;
-  background-color: #1500ff;
+  background-color: #3bfcb2;
   border-color: white;
 }
 
