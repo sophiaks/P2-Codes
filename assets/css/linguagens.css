@@ -66,16 +66,7 @@
     margin-left:2rem;
 }
 
-.circulo {
-  background-color: white;
-  height: 7rem;
-  width: 7rem;
-  border-radius: 5rem;
-  display: flex;
-  justify-content: center;
-  margin-top: 2rem;
-  margin-left: 2rem;
-}
+
 
 a {
   text-decoration: none;
