@@ -15,8 +15,9 @@ var firebaseConfig = {
   appId: "1:94700985925:web:5d3f9e023539195b224d2c"
 };
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+
 function add(i){
+firebase.initializeApp(firebaseConfig);
 var dbRef = firebase.database();
 var contactsRef2 = dbRef.ref('/usuario/frontend/candidatos/Bilbia'+i.toString());
 contactsRef2.set({
@@ -45,3 +46,21 @@ contactsRef2.set({
   }
   })
 }
+function numero(){
+  firebase.initializeApp(firebaseConfig);
+  var dbRef = firebase.database();
+  var contactsRef = dbRef.ref('/usuario');
+
+let i=0
+contactsRef.once("value", function(snap) {
+  
+    for(let selecao of Object.values(snap.val()["frontend"])){
+            this.i+=1
+            } 
+            return this.i       
+        }
+   
+      )
+      return i
+}
+console.log(numero())
