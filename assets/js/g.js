@@ -31,7 +31,6 @@ var firebaseConfig = {
                         ponto=Object.keys(selecao)[i-1]
                        break;
                     }
-                    
                 }     
             }
     console.log(i)
