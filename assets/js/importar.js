@@ -21,7 +21,7 @@ firebase.initializeApp(firebaseConfig);
 
 var dbRef = firebase.database();
 var contactsRef = dbRef.ref('/usuario');
-function numero(){
+function add(){
     contactsRef.once("value", function(snap) {
     let i=0
     for(let selecao of Object.values(snap.val()["frontend"])){

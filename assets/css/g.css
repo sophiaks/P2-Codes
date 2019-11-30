@@ -68,17 +68,28 @@ a {
 
 .square {
   display: flex;
-  height: 50px;
-  width: 50px;
-  background-color: rgb(255, 74, 29);
+  height: 5rem;
+  width: 5rem;
+  background-color: rgb(255, 43, 43);
+  border-style: solid;
   border-color: white;
+  border-width:0.5rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.7rem;
 }
 
 .square2 {
-  height: 50px;
-  width: 50px;
-  background-color: #3bfcb2;
+  display:flex;
+  height: 5rem;
+  width: 5rem;
+  background-color: #4bdda5;
+  border-style: solid;
   border-color: white;
+  border-width:0.5rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.7rem;
 }
 
 .text {
@@ -102,4 +113,9 @@ a {
 }
 p{
   margin:auto
+}
+
+.pular, .aceitar{
+  font-weight:bold;
+  color:white;
 }

@@ -35,9 +35,8 @@ contactsRef.once("value", function(snap) {
 contactsRef.once("value", function(snap) {
     for(let selecao of Object.values(snap.val()["frontend"])){
             for(let nome of Object.values(selecao)){
-            
+                k+=1
                 if(nome["triagem"]["passou"]==true){
-                    k+=1
                     if(nome["teste"]["HTML"]["fez"]==true && nome["teste"]["CSS"]["fez"]==true && nome["teste"]["JS"]["fez"]==true){
                         u+=1
                     }
@@ -55,9 +54,8 @@ let q=0
 contactsRef.once("value", function(snap) {
 for(let selecao of Object.values(snap.val()["frontend"])){
         for(let nome of Object.values(selecao)){
-        
+        p+=1
             if(nome["triagem"]["passou"]==true){
-                p+=1
                 if(nome["teste"]["HTML"]["passou"]==true && nome["teste"]["CSS"]["passou"]==true && nome["teste"]["JS"]["passou"]==true){
                     q+=1
                 }
