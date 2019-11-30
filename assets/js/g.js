@@ -20,6 +20,7 @@ var firebaseConfig = {
   firebase.initializeApp(firebaseConfig);
   var dbRef = firebase.database();
   var contactsRef = dbRef.ref('/usuario');
+  var ponto=""
   function aceitar(){
     contactsRef.once("value", function(snap) {
         let i=0
@@ -27,6 +28,7 @@ var firebaseConfig = {
                 for(let nome of Object.values(selecao)){
                     i+=1
                     if(nome["triagem"]["passou"]==false){
+                        ponto=Object.keys(selecao)[i-1]
                        break;
                     }
                     
@@ -35,7 +37,7 @@ var firebaseConfig = {
     console.log(i)
     
             
-    var contactsRef2 = dbRef.ref('/usuario/frontend/candidatos/Bilbia'+(i-1).toString());
+    var contactsRef2 = dbRef.ref('/usuario/frontend/candidatos/'+ponto.toString());
       contactsRef2.set({
     
         teste:{
