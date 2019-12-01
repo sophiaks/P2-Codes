@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+
+<head>
+    <title>Dev. Frontend</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/pessoas.css">
+    <script src="assets/js/codes.js"></script>
+    <script src="assets/js/pessoas.js"></script>
+</head>
+
+<body class = "main">
+    <section class="section1">
+        <a href="Selecao.html">
+            <div class="circulo">
+                <p class="voltar">&#10094;</p>
+            </div>
+        </a>
+    </section>
+
+    <header>
+        <h1  class = "header"> Resultados
+        </h1>
+    </header>
+
+
+<section class="section2">
+  {{#each this}}
+    <div="cada">
+  <input type='checkbox' class="{{this}}"style='display: none' id={{this}}>
+    <label for={{this}} class = "item1">{{this}}</label>
+
+    <div class = "hidden">
+        <p class = "topics">
+            HTML
+        </p>
+        <a href="feed.html">
+          <p class = "topics">
+              CSS
+          </p>
+        </a>
+        <p class = "topics">
+            Java Script
+        </p>
+    </div>
+    </div>
+    {{/each}}
+
+
+</section>
+
+
+
+</body>
+
+</html>
