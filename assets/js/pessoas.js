@@ -7,7 +7,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 lista.push(i)
             }     
     }
+    
         console.log(lista)
+        console.log("Bilbia"+(lista.length-1).toString())
       coDesReplace(".section2", lista);
+document.getElementsByClassName("Bilbia"+(lista.length-1).toString())[0].style.borderBottomLeftRadius = "1.5rem";
+document.getElementsByClassName("Bilbia"+(lista.length-1).toString())[0].style.borderBottomRightRadius = "1.5rem";
     });
+
   })

@@ -13,7 +13,7 @@
       margin-bottom:4rem;   
   }
 
-  .item1{
+  .item{
       text-align: center;
       font-size: 1rem;
       background: rgb(255, 255, 255);
@@ -48,7 +48,11 @@
       margin-left:2rem;
   }
   
-  
+  .Bilbia0{
+      border-top-left-radius:1.5rem;
+      border-top-right-radius:1.5rem
+  }
+
   a {
     text-decoration: none;
     width: 100%;
@@ -64,28 +68,60 @@
     border-bottom-right-radius: 2rem;
   }
   
-  .hidden {
+
+  .cada{
+    margin-bottom:2rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .topics {
+      margin:auto;
+    color: white;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1), 3px 3px 3px rgba(0, 0, 0, 0.5);
+  }
+    .hidden {
       font-size: 1rem;
       padding:1rem;
       display: none;
       -moz-box-shadow:    inset 0 0 20px #000000;
       -webkit-box-shadow: inset 0 0 20px #000000;
       box-shadow:         inset 0 0 20px #000000;
-      margin-left: 1rem;
-      margin-right: 1rem;
+      margin:auto;
       height:10rem;
-      width:20rem;
-  
-  
+      width:15rem;
+
+      
   }
-  
-  .topics {
-    margin-bottom: 3rem;
-    color: white;
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1), 3px 3px 3px rgba(0, 0, 0, 0.5);
-  }
-  
+.elemento{
+    height:3rem;
+    width:10rem;
+    display:flex;
+    justify-content: center;
+}
+  .section2{
+    margin-bottom:2rem;
+      display:flex;
+      justify-content: center;
+      flex-direction: column;
+
+}
+
   input:checked + label + .hidden {
-    display: inline;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
   }
+
+  p{
+      margin:auto;
+  }
+
+
+
   
