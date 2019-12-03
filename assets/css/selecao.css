@@ -11,8 +11,9 @@
   align-content: center;
   margin-top: 5%;
   font-size: 150%;
-  color: aliceblue;
+  color: white;
   font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 
 .categorias_selecao {
