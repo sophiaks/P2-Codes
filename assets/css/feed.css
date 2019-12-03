@@ -50,9 +50,9 @@ a {
 .section2 {
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  align-content: center;
-  height: 18rem;
+  flex-direction: row;
+  align-content: space-between;
+  height: 5rem;
 }
 
 .foodimg {
