@@ -40,21 +40,9 @@ var firebaseConfig = {
       contactsRef2.set({
     
         teste:{
-            CSS:{
-                codigo:"hey",
-                passou:false,
-                fez:false
-            },
-            HTML:{
-              codigo:"hey",
-              passou:false,
-              fez:false
-            },
-            JS:{
-              codigo:"hey",
-              passou:false,
-              fez:false
-            }
+            passou:false,
+            codigo:"frerfe",
+            fez:false
         },
         triagem:{
             curriculo:"quasssseeeee",

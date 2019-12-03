@@ -118,3 +118,37 @@ a {
   height: 25rem;
   padding: 0 1.5rem;
 }
+
+
+.squares {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 2rem;
+}
+
+.square {
+  display: flex;
+  height: 5rem;
+  width: 5rem;
+  background-color: rgb(255, 43, 43);
+  border-style: solid;
+  border-color: white;
+  border-width:0.5rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.7rem;
+}
+
+.square2 {
+  display:flex;
+  height: 5rem;
+  width: 5rem;
+  background-color: #4bdda5;
+  border-style: solid;
+  border-color: white;
+  border-width:0.5rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.7rem;
+}

@@ -28,38 +28,8 @@
 
 <section class="section2">
   {{#each this}}
-    <div clas="cada">
-            <input type='checkbox' style='display: none' id={{this}}>
-            <label for={{this}} class="item {{this}}">{{this}}</label>
-    <div class = "hidden">
-       <div >
-            <div class="elemento">
-        <p class = "topics">
-            HTML
-        </p>
-    </div>
-      
-    </div>
-    
-    <div><a href="feed.html?pessoaCSS={{this}}"><div class="elemento">
-          <p class = "topics">
-              CSS
-          </p></div>
-     </a>
-    </div>
-        
-    <div>
-            <div class="elemento">
-    <p class = "topics">
-            Java Script
-            <div>
-        </p>
-   </div>
-    </div>
-    
- 
-        
-    </div>
+    <div class="cada">
+           <a href="feed.html?pessoa={{this}}"> <div for={{this}} class="item {{this}}">{{this}}</div></a>
     </div>
     {{/each}}
 

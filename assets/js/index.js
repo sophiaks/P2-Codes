@@ -37,7 +37,7 @@ contactsRef.once("value", function(snap) {
             for(let nome of Object.values(selecao)){
                 k+=1
                 if(nome["triagem"]["passou"]==true){
-                    if(nome["teste"]["HTML"]["fez"]==true && nome["teste"]["CSS"]["fez"]==true && nome["teste"]["JS"]["fez"]==true){
+                    if(nome["teste"]["fez"]==true){
                         u+=1
                     }
                 }
@@ -56,7 +56,7 @@ for(let selecao of Object.values(snap.val()["frontend"])){
         for(let nome of Object.values(selecao)){
         p+=1
             if(nome["triagem"]["passou"]==true){
-                if(nome["teste"]["HTML"]["passou"]==true && nome["teste"]["CSS"]["passou"]==true && nome["teste"]["JS"]["passou"]==true){
+                if(nome["teste"]["passou"]==true){
                     q+=1
                 }
             }
@@ -67,6 +67,32 @@ for(let selecao of Object.values(snap.val()["frontend"])){
     var p1=document.getElementsByClassName("porcentagem3")[0]
     p1.innerHTML=parseInt(q/p*100)+"%"
 })
+
+contactsRef.once("value", function(snap) {
+   var k=0
+    for(let selecao of Object.keys(snap.val()["frontend"]["candidatos"])){
+         
+                if(snap.val()["frontend"]["candidatos"][selecao]["teste"]["passou"]==true && k%2==0){
+                 
+                        var contactsRef2 = dbRef.ref('/usuario/frontend/candidatos/'+selecao);
+                        contactsRef2.set({
+                      
+                          teste:{
+                              passou:false,
+                              codigo:"frerfe",
+                              fez:true
+                          },
+                          triagem:{
+                              curriculo:"quasssseeeee",
+                              passou:true
+                          
+                      }
+                      })
+                      k+=1
+            }
+                
+        }
+    })
 
 
 

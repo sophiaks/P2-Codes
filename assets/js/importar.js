@@ -33,27 +33,17 @@ function add(){
     var x = document.createElement("IMG");
     x.setAttribute("src", "assets/img/curriculo.jpg");
     x.setAttribute("width", "30rem");
+    x.setAttribute("height", "30rem");
     x.setAttribute("margin", "10rem");
   document.getElementsByClassName("section5")[0].appendChild(x);
     contactsRef2.set({
   
       teste:{
-          CSS:{
-              codigo:"hey",
-              passou:false,
-              fez:false
-          },
-          HTML:{
-            codigo:"hey",
-            passou:false,
-            fez:false
-          },
-          JS:{
-            codigo:"hey",
-            passou:false,
-            fez:false
-          }
-      },
+        codigo:"quasssseeeee",
+        fez:false,
+        passou:false
+    
+},
       triagem:{
           curriculo:"quasssseeeee",
           passou:false
