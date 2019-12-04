@@ -194,13 +194,14 @@
 .section3 {
   height: 3rem;
   overflow: hidden;
+  bottom: -0.1rem
 }
 .onda {
   background-image: url("../img/waves.png");
   background-size: 50% 30px;
   animation: waves 8s linear infinite;
   position: relative;
-  bottom: 0rem;
+  bottom: -0.1rem;
   left: 0;
   right: 0;
   height: 100%;
