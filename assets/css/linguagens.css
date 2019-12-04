@@ -9,9 +9,11 @@
     font-size: 2rem;
     color: white;
     font-weight: bold;
+    width:20rem;
     text-align: center;
-    margin-bottom:4rem;
+    margin-bottom:10rem;
     font-family: "Montserrat";
+    margin: auto
 }
 
 
@@ -77,6 +79,7 @@ a {
 #redondo {
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
+  margin-top:2rem
 }
 
 #redondo2 {
