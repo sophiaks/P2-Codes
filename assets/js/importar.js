@@ -51,6 +51,35 @@ function add(){
   }
   })
 })
+contactsRef.once("value", function(snap) {
+  let i=0
+  for(let selecao of Object.values(snap.val()["backend"])){
+          for(let nome of Object.values(selecao)){
+              i+=1 
+          }     
+      }
+  var contactsRef2 = dbRef.ref('/usuario/backend/candidatos/Bilbia'+i.toString());
+  var x = document.createElement("IMG");
+  x.setAttribute("src", "assets/img/curriculo.jpg");
+  x.setAttribute("width", "30rem");
+  x.setAttribute("height", "30rem");
+  x.setAttribute("margin", "10rem");
+document.getElementsByClassName("section5")[0].appendChild(x);
+  contactsRef2.set({
+
+    teste:{
+      codigo:"quasssseeeee",
+      fez:false,
+      passou:false
+  
+},
+    triagem:{
+        curriculo:"quasssseeeee",
+        passou:false
+    
+}
+})
+})
 
     
 

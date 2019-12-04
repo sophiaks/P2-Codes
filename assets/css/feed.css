@@ -61,6 +61,27 @@ a {
   margin-right: 1rem;
 }
 
+pre, code {
+  font-family: monospace, monospace;
+  background-color: white;
+  border-radius: 1rem;
+}
+pre {
+  overflow: auto;
+  /* padding: 1rem; */
+  height:13rem;
+}
+
+code{
+  height:10rem;
+}
+pre > code {
+  display: block;
+  /* padding: 1rem; */
+  word-wrap: normal;
+
+}
+
 .tripimg {
   width: 10rem;
   margin: auto;
